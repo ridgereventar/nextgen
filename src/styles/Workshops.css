@@ -1,0 +1,116 @@
+#workshopsHeading {
+    display: none;
+}
+
+.workshop-section-landing {
+    height: max-content;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.workshop-section {
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.booklet-wrapper {
+    width: 45%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s linear;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.booklet-wrapper:hover {
+    width: 47%;
+}
+
+.book-img {
+    width: 100%;
+    -webkit-filter: drop-shadow(-10px 10px 10px #727272);
+    filter: drop-shadow(-10px 10px 10px #727272);
+}
+
+.scissors {
+    width: 40%;
+    position: absolute;
+    left: -4vw;
+    bottom: -1.5vw;
+}
+
+.booklet-desc {
+    width: 75%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    font-size: 14px;
+}
+
+.booklet-wrapper:hover .booklet-desc {
+    transition: 0.2s linear;
+    bottom: -80px;
+}
+
+@media screen and (max-width: 1300px) {
+    .workshop-section {
+        padding-top: 25vh;
+        height: max-content;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        /* background-color: red; */
+    }
+    .workshop-section-landing {
+        height: max-content;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+    .booklet-wrapper {
+        width: 50%;
+        min-width: 300px;
+        margin-bottom: 125px;
+    }
+    .booklet-wrapper:hover {
+        width: 52%;
+    }
+    .scissors {
+        left: -5.6vw;
+        bottom: -1.5vw;
+    }
+    .booklet-desc {
+        width: 100%;
+    }
+    .booklet-wrapper:hover .booklet-desc {
+        transition: 0.2s linear;
+        bottom: -90px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    #workshopsHeading {
+        display: flex;
+    }
+    .workshop-section {
+        padding-top: 0;
+        
+    }
+    .scissors {
+        left: -9.8vw;
+        bottom: -4vw;
+    }
+}

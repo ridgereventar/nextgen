@@ -1,0 +1,200 @@
+.heading-section {
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+
+.heading-section h1 {
+    margin: 0;
+}
+
+.heading-section p {
+    margin-top: 15px;
+    width: 400px;
+    /* background-color: #727272; */
+}
+
+
+/* Description Section -------------------------------- */
+
+.desc-section {
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-desc {
+    width: 350px;
+    bottom: 0;
+    text-align: center;
+    /* background-color: red; */
+}
+
+/* Preview Section -------------------------------- */
+
+
+.preview-section {
+    height: max-content;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#video {
+    width: 100%;
+    outline: 0 !important;
+    transition: 0.3s linear;
+
+}
+
+.preview-btn {
+    width: 50px;
+    height: 65px; 
+    position: absolute;
+    z-index: 998;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    background-image: url('../images/playbtn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.1s linear;
+}
+
+.preview-btn:hover {
+    width: 65px;
+    height: 90px; 
+}
+
+.preview-btn:hover + #video {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+
+/* Instructor Section -------------------------------- */
+
+
+.instructor-section {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.barber-container {
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: 0.2s linear;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barber-container:hover {
+    filter: grayscale(0%);
+}
+
+#nav {
+    background-image: url('../images/nav.jpg');
+}
+
+#chris {
+    background-image: url('../images/chris.jpg');
+
+}
+
+.black-gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
+    pointer-events: none;
+}
+
+.name-container {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 4;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name-container h4 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.name-container p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.barber-container:hover .name-container {
+    opacity: 1;
+}
+
+
+/* Connect Section -------------------------------- */
+
+
+.connect-section {
+    height: 500px;
+}
+
+#connectImg {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -2px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .instructor-section {
+        flex-direction: column;
+    }
+    .barber-container {
+        width: 65%;
+        height: 50%;
+        background-position: center top;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .scissors {
+        left: -9.8vw;
+        bottom: -4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .intro-desc {
+        width: 250px;
+    }
+    .heading-section p {
+        width: 250px;
+    }
+}
+
+
+
+

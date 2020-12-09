@@ -1,0 +1,156 @@
+/* Footer Section -------------------------------- */
+
+
+.footer {
+    height: 300px; 
+    padding: 4% 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    z-index: 999;
+}
+
+.content-container {
+    width: 65%; 
+    height: max-content; 
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.statement-container {
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.statement-container img {
+    width: 20%;
+    min-width: 70px;
+    align-self: flex-start;
+
+}
+
+.statement-container p {
+    color: white;
+    margin: 0;
+    margin-left: 20px;
+
+}
+
+.bar-divider {
+    margin-left: 20px;
+    border-radius: 10px;
+    min-width: 2px; 
+    height: 100%;
+    background-color: white;
+}
+
+#missionStatement {
+    margin-bottom: 25px;
+}
+
+.link-container {
+    width: 15%; 
+    min-width: max-content;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.link-container ul{
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+}
+
+.link-container li {
+    margin-bottom: 5px;
+}
+
+
+.link-container a:visited {
+    color: white;
+}
+
+
+.socials-container {
+    width: 65%; 
+    height: 20px; 
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2F2F2F;
+    padding-top: 10px;
+}
+
+.socials-container p {
+    margin: 0;
+    color: white;
+}
+
+
+.icons-container {
+    width: 10%;
+    min-width: max-content;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.icons-container img{
+    height: 100%;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        height: 250px;
+    }
+    #missionStatement {
+        margin-bottom: 0;
+    }
+    #quote {
+        display: none;
+    }
+    .socials-container p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        height: 200px;
+        padding: 50px 0;
+    }
+    .content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .statement-container {
+        display: none;
+    }
+    #missionStatement {
+        display: none;
+    }    
+    .bar-divider {
+        display: none;
+    }
+    .socials-container p {
+        font-size: 9px;
+    }
+    .link-container ul{
+        display: flex;
+    }
+    .link-container li{
+        margin-left: 30px;
+    }
+    .link-container li:first-child{
+        margin-left: 0px;
+    }
+}
+

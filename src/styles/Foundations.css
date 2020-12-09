@@ -1,0 +1,131 @@
+.feature-section {
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px; 
+    /* background-color: lightgray; */
+}
+
+.feature-txt-container {
+    width: 35%;
+    height: max-content;
+    /* background-color: aqua; */
+}
+
+.feature-img-container {
+    width: 50%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.feature-img-container img{
+    width: 100%;
+}
+
+
+/* Hands-on Feature ------------------------------- */ 
+
+
+.left-txt {
+    padding-left: 10%;
+}
+
+
+/* Tools  ------------------------------- */ 
+
+
+.right-txt {
+    text-align: right;
+    padding-right: 10%;
+    order: 2;
+}
+
+#tools {
+    margin-right: -60px;
+    width: 110%;
+    transform: scaleX(-1);
+}
+
+
+/* Day Breakdown Section  ------------------------------- */ 
+
+
+.day-section {
+    height: 100vh;
+    min-height: 580px;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-section h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.day-section span {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.day-section ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.day-section li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.day1-sect {
+    background-image: url('../images/dayonebgdark.jpg');
+}
+
+.day2-sect {
+    margin-top: -5px;
+    background-image: url('../images/daytwobgdark.jpg');
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    .feature-section {
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .feature-txt-container {
+        width: 50%;
+        text-align: center;
+    }
+
+    .left-txt {
+        padding-left: 0;
+    }
+
+    .feature-img-container {
+        width: 70%;
+        order: 2;
+    }
+
+    .stack-container {
+        margin-top: 40px;
+    }
+
+    .right-txt {
+        padding-right: 0;
+        order: 1;
+    }
+
+    #tools {
+        margin-right: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+}

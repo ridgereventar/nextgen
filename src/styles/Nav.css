@@ -1,0 +1,141 @@
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+.nav-container {
+    width: 100%;
+    height: 80px;
+    /* background-color: lightgray; */
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    transition: 1s linear;
+    /* pointer-events:none; */
+}
+
+.hide-nav {
+    display: none;
+    position: fixed;
+    background-color: #F0F0F0;
+}
+
+#staticNav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    /* background-color: red; */
+}
+
+#staticNav li {
+    text-decoration: none;
+    font-size: 16px;
+    /* background-color: red; */
+
+}
+
+#responsiveLogo {
+    display: none;
+}
+
+
+.burger-container {
+    display: none;
+    z-index: 1000;
+}
+
+.hamburger {
+    display: block;
+    width: 45px;
+    /* background-color: red;     */
+}
+
+.nav-wrapper {
+    width: 60%;
+    /* background-color: red; */
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.nav-logo {
+    width: 25px;
+}
+
+.slider-container {
+    width: 100%;
+    height: max-content;     
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto; 
+    left: 0;
+    right: 0;
+    display: none;
+    /* margin-left: -5%; */
+}
+
+#sliderNav {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#sliderNav li {
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    #staticNav {
+        display: none;
+    }
+
+    #responsiveLogo {
+        display: block;
+    }
+
+    .burger-container {
+        display: block;
+    }
+
+    .slider-container {
+        display: block;
+        background-color: white;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav-container {
+        z-index: 999;
+    }
+    .slider-container{ 
+        background-color: #F0F0F0;
+    }
+    .hide-nav {
+        display: flex;
+    }
+    
+}

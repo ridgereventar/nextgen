@@ -1,0 +1,29 @@
+#logoDark {
+    width: 55%;
+    min-width: 200px;
+}
+
+.workshop-desc {
+    position: absolute;
+    top: 57vh;
+    width: 70%;
+    text-align: start;
+}
+
+.cover-title-container {
+    /* background-color: red; */
+    width: max-content;
+}
+
+.cover-title-container h1 {
+    margin: 0;
+    font-size: 4vw;
+}
+
+.cover-title-container span {
+    font-size:calc(12px + 0.9vw);
+}
+
+#aboutCover {
+    font-size: 4vw;
+}

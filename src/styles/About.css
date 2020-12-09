@@ -1,0 +1,35 @@
+.about-section {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/introbg2.jpg');
+    background-size: cover;
+    color: white;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+
+#about-desc {
+    margin-bottom: 50px;
+}
+
+.contact-container {
+    width: 100%;
+    height: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-container img{
+    width: 18px;
+    margin-right: 10px;
+}
+
+#phone {
+    width: 15px;
+    margin-left: 1.5px;
+    margin-right: 12px;
+}
