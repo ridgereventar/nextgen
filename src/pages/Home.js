@@ -1,5 +1,5 @@
-import React, {useState, useEffect, useRef} from 'react';
-import { Route, NavLink, Switch, useLocation } from "react-router-dom";          
+import React from 'react';
+import {Route, Switch} from "react-router-dom";          
 import {Fade} from 'react-reveal';
 
 import '../styles/Home.css';
@@ -17,8 +17,7 @@ import WorkshopsCover from '../components/WorkshopsCover';
 import FoundationsCover from '../components/FoundationsCover';
 
 import RegisterBtn from '../components/RegisterBtn';
-import mail from '../images/mail.png';
-import ig from '../images/igdark.png';
+import ig from '../images/icons/igdark.png';
 
 const Home = (props) => {
 
@@ -26,10 +25,8 @@ const Home = (props) => {
         <div className="home-wrapper">
                 
             <Fade left>
-                <div className="fixed-cover-container">
+                <div className="cover-container">
                     <Nav/>
-                    {/* <div className="dot"></div> */}
-                    
                     <Switch>
                         <Route path="/" exact component={HomeCover}></Route>
                         <Route path="/about" exact component={AboutCover}></Route>
@@ -37,21 +34,15 @@ const Home = (props) => {
                         <Route path="/foundations" exact component={FoundationsCover}></Route>
                     </Switch>       
 
-                    {/* <div className="cover-footer">
-                        <img src={ig}></img>
-                        <RegisterBtn/>
-                    </div> */}
-
-                    <div className="register-container">
+                    <div className="register-wrapper">
                         <RegisterBtn/>
                     </div>
 
-                    <div className="socials-section">
+                    <div className="socials-wrapper">
                         <a href="https://www.instagram.com/next_gen_edu/" target="_blank">
                             <img src={ig}></img>
                         </a>
                     </div>
-
                 </div>
             </Fade>
 

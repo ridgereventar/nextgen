@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 import '../styles/Footer.css';
 
 import logo from '../images/nextgenlogo.png';
-import mail from '../images/mail.png';
+import mail from '../images/icons/mail.png';
 import ig from '../images/ig.png';
 
 const Footer = (props) => {
