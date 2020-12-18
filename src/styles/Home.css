@@ -28,12 +28,12 @@
     bottom: 10vh;
 }
 
-.socials-warpper {
+.socials-wrapper {
     position: absolute;
     bottom: 3vh;
 }
 
-.socials-section img{
+.socials-wrapper img{
     width: 30px;
 }
 

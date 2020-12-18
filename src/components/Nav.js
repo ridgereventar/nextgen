@@ -4,33 +4,33 @@ import {Fade} from 'react-reveal';
 import Lottie from 'lottie-web-react';                            
 
 import '../styles/Nav.css';
+
 import logo from '../images/xlogo.png';
-import menuicon from '../images/menuicon.png';
 import RegisterBtn from '../components/RegisterBtn';
+import burgerForward from '../helpers/burgerForward.json';
+import burgerBackward from '../helpers/burgerBackward.json';
 
 const Nav = (props) => {
 
     const animOptionsF = {
         renderer: 'svg',
         loop: false,
-        autoplay: true, 
-        animationData: require('../helpers/burgerForward.json')
+        autoplay: false, 
+        animationData: burgerForward
     }
 
     const animOptionsB = {
         renderer: 'svg',
         loop: false,
-        autoplay: true, 
-        animationData: require('../helpers/burgerBackward.json')
+        autoplay: false, 
+        animationData: burgerBackward
     }
-    // const [showLogo, setShowLogo] = useState(false);
-    const [showSlider, setShowSlider] = useState(false);
 
+    const [showSlider, setShowSlider] = useState(false);
     const [showBurgerF, setShowBurgerF] = useState(true);
     const [showBurgerB, setShowBurgerB] = useState(false);
 
     const toggleSlider = () => {
-        // console.log("hello");
         setShowSlider(!showSlider);
         setShowBurgerF(!showBurgerF);
         setShowBurgerB(!showBurgerB);
@@ -39,46 +39,44 @@ const Nav = (props) => {
     return (
         <div className={props.hide ? "nav-container hide-nav" : "nav-container"}>
             
-            {console.log(showBurgerF)}
-
-            <NavLink to="/">
-                <img id="responsiveLogo" className="nav-logo" src={logo}></img>
-            </NavLink>
-            <div className="burger-container" onClick={toggleSlider}>
-                {showBurgerF? 
-                    <Lottie
-                        className="hamburger"
-                        options={animOptionsB}
-                        playingState='play'/>
-                    : null
-                }
-                {showBurgerB?
-                    <Lottie
-                        className="hamburger"
-                        options={animOptionsF}
-                        playingState='play'/>
-                    : null
-                }
-
-            </div>
-            
-
             <ul id="staticNav">
                 <li>
                     <NavLink className="nav-link" to="/about"> &nbsp; About Us &nbsp; </NavLink>
                 </li>
                 <li>
                     <NavLink className="nav-link" to="/">
-                        <img className="nav-logo" src={logo}></img>
+                        <img className="nav-logo" src={logo}/>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink className="nav-link" to="/workshops">Workshops</NavLink>                
                 </li>
             </ul>
+            
+            <NavLink to="/">
+                <img id="logoLeft" className="nav-logo" src={logo}></img>
+            </NavLink>
 
+            <div className="burger-wrapper" onClick={toggleSlider}>
+                {showBurgerF? 
+                    <Lottie
+                        className="burger"
+                        options={animOptionsB}
+                        playingState='play'/>
+                    : null
+                }
+                {showBurgerB?
+                    <Lottie
+                        className="burger"
+                        options={animOptionsF}
+                        playingState='play'/>
+                    : null
+                }
+            </div>
+        
+    
             {showSlider?    
-                <Fade top appear={false}>
+                <Fade top>
                     <div className="slider-container">
                         <ul id="sliderNav">
                             <Fade top>
@@ -101,7 +99,6 @@ const Nav = (props) => {
                 </Fade>
                 : null
             }
-
 
         </div>    
     )

@@ -1,21 +1,16 @@
 a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
 a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
 
 .nav-container {
     width: 100%;
     height: 80px;
-    /* background-color: lightgray; */
-    position: absolute;
-    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
     padding: 0 5%;
     box-sizing: border-box;
-    transition: 1s linear;
-    /* pointer-events:none; */
 }
 
 .hide-nav {
@@ -24,6 +19,8 @@ a:hover, a:active { text-decoration: none; color:black }
     background-color: #F0F0F0;
 }
 
+/* Static Nav -------------------------------- */
+
 #staticNav {
     width: 250px;
     display: flex;
@@ -31,35 +28,6 @@ a:hover, a:active { text-decoration: none; color:black }
     align-items: center;
     list-style-type: none;
     padding-left: 0;
-    /* background-color: red; */
-}
-
-#staticNav li {
-    text-decoration: none;
-    font-size: 16px;
-    /* background-color: red; */
-
-}
-
-#responsiveLogo {
-    display: none;
-}
-
-
-.burger-container {
-    display: none;
-    z-index: 1000;
-}
-
-.hamburger {
-    display: block;
-    width: 45px;
-    /* background-color: red;     */
-}
-
-.nav-wrapper {
-    width: 60%;
-    /* background-color: red; */
 }
 
 .nav-link {
@@ -69,7 +37,30 @@ a:hover, a:active { text-decoration: none; color:black }
 
 .nav-logo {
     width: 25px;
+    transition: 0.1s linear;
 }
+
+.nav-logo:hover {
+    width: 29px;
+}
+
+/* Responsive Nav -------------------------------- */
+
+#logoLeft {
+    display: none;
+}
+
+.burger-wrapper {
+    display: none;
+    z-index: 1000;
+}
+
+.burger {
+    display: block;
+    width: 45px;
+}
+
+/* Slider Nav -------------------------------- */
 
 .slider-container {
     width: 100%;
@@ -85,7 +76,6 @@ a:hover, a:active { text-decoration: none; color:black }
     left: 0;
     right: 0;
     display: none;
-    /* margin-left: -5%; */
 }
 
 #sliderNav {
@@ -100,9 +90,6 @@ a:hover, a:active { text-decoration: none; color:black }
 }
 
 
-
-
-
 @media screen and (max-width: 1000px) {
     .nav-container {
         justify-content: space-between;
@@ -112,18 +99,13 @@ a:hover, a:active { text-decoration: none; color:black }
         display: none;
     }
 
-    #responsiveLogo {
-        display: block;
-    }
-
-    .burger-container {
+    #logoLeft, .burger-wrapper {
         display: block;
     }
 
     .slider-container {
         display: block;
         background-color: white;
-
     }
 }
 
@@ -131,11 +113,10 @@ a:hover, a:active { text-decoration: none; color:black }
     .nav-container {
         z-index: 999;
     }
-    .slider-container{ 
-        background-color: #F0F0F0;
-    }
     .hide-nav {
         display: flex;
     }
-    
+    .slider-container{ 
+        background-color: #F0F0F0;
+    }
 }
