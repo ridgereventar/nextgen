@@ -3,13 +3,14 @@ import {Fade} from 'react-reveal';
 
 import '../styles/Foundations.css';
 
+import Nav from '../components/Nav';
+import LandingSection from '../components/LandingSection';
+
 import foundations from '../images/foundations.png';
 import tools from '../images/tools.png';
 import handson from '../images/handson.png';
 import mentor from '../images/wk.jpg';
 
-import Nav from '../components/Nav';
-import LandingSection from '../components/LandingSection';
 
 const Foundations = (props) => {
 

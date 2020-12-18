@@ -3,19 +3,16 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px; 
-    /* background-color: lightgray; */
 }
 
 .feature-txt-container {
     width: 35%;
     height: max-content;
-    /* background-color: aqua; */
 }
 
 .feature-img-container {
     width: 50%;
     height: 70%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
 }
@@ -24,17 +21,9 @@
     width: 100%;
 }
 
-
-/* Hands-on Feature ------------------------------- */ 
-
-
 .left-txt {
     padding-left: 10%;
 }
-
-
-/* Tools  ------------------------------- */ 
-
 
 .right-txt {
     text-align: right;
