@@ -3,16 +3,16 @@
     min-width: 200px;
 }
 
-.workshop-desc {
-    position: absolute;
-    top: 57vh;
-    width: 70%;
-    text-align: start;
+.cover-title {
+    font-size: 4vw;
 }
 
 .cover-title-container {
-    /* background-color: red; */
     width: max-content;
+}
+
+.cover-title-container span {
+    font-size:calc(12px + 0.9vw);
 }
 
 .cover-title-container h1 {
@@ -20,10 +20,9 @@
     font-size: 4vw;
 }
 
-.cover-title-container span {
-    font-size:calc(12px + 0.9vw);
-}
-
-#aboutCover {
-    font-size: 4vw;
+.workshop-desc {
+    position: absolute;
+    top: 57vh;
+    width: 70%;
+    text-align: start;
 }

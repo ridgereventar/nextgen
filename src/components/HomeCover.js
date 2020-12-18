@@ -1,8 +1,5 @@
 import React from 'react'; 
-import {Fade} from 'react-reveal';
-
 import '../styles/Cover.css'; 
-
 import logo from '../images/logodark.png';
 
 const HomeCover = (props) => {

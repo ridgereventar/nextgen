@@ -7,9 +7,7 @@ const WorkshopsCover = (props) => {
     return (
         <React.Fragment>
             <Fade left>
-                <div className="cover-title-container">
-                    <h1>Workshops</h1>
-                </div>                  
+                <h1 className="cover-title">Workshops</h1>
             </Fade>
         </React.Fragment>
     )
