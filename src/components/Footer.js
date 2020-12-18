@@ -5,7 +5,7 @@ import '../styles/Footer.css';
 
 import logo from '../images/nextgenlogo.png';
 import mail from '../images/icons/mail.png';
-import ig from '../images/ig.png';
+import ig from '../images/icons/ig.png';
 
 const Footer = (props) => {
     return (

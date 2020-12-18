@@ -84,12 +84,12 @@
 }
 
 .day1-sect {
-    background-image: url('../images/dayonebgdark.jpg');
+    background-image: url('../images/bg/dayone.jpg');
 }
 
 .day2-sect {
     margin-top: -5px;
-    background-image: url('../images/daytwobgdark.jpg');
+    background-image: url('../images/bg/daytwo.jpg');
 }
 
 

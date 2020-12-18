@@ -1,19 +1,6 @@
-/* Landing Section -------------------------------- */
-
-#mobile-logo {
-    position: absolute;
-    top: 15vh;
-    width: 25%;
-    min-width: 170px;
-    display: none;
-}
-
 .landing-section {
     height: 100vh;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    /* position: relative; */
 }
 
 .outer-row {
@@ -22,7 +9,14 @@
     justify-content: center;
     align-items: center;
     /* background-color: aqua; */
+}
 
+#mobile-logo {
+    position: absolute;
+    top: 15vh;
+    width: 25%;
+    min-width: 170px;
+    display: none;
 }
 
 .manual-container {
@@ -36,7 +30,6 @@
     height: 100%;
     width: max-content;
     position: relative;
-    /* background-color: red; */
 }
 
 #manual {
@@ -52,20 +45,14 @@
     bottom: -5vh;
 }
 
-/* #arrow-container {
-    align-items: flex-end;
-} */
-
 #arrow {
     width: 5vh;
     /* margin-bottom: 4vh; */
 }
 
-
 /* Foundations Section -------------------------------- */
 
 .foundations-header-container {
-    /* background-color: red; */
     width: max-content;
     display: none;
 }

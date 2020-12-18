@@ -4,6 +4,7 @@ import {NavLink} from "react-router-dom";
 import Nav from '../components/Nav';
 
 import '../styles/Workshops.css'; 
+
 import foundations from '../images/foundations.png';
 import techniques from '../images/techniques.png';
 import silver from '../images/silver.png';

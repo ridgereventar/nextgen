@@ -5,13 +5,10 @@ import '../styles/LandingSection.css';
 
 import gold from '../images/gold.png';
 import logo from '../images/logodark.png';
-import arrow from '../images/arrow.png';
+import arrow from '../images/icons/arrow.png';
 
 
 const LandingSection = (props) => {
-
-    useEffect(() => {
-    }, [])
 
     return (
         <div className="section landing-section">
@@ -31,7 +28,7 @@ const LandingSection = (props) => {
             </div>
             
             <div className="manual-container">
-                <Fade delay={800}>
+                <Fade delay={500}>
                     <div className="manual-wrapper">
                         <img id="manual" src={props.manual}></img>
                         <img id="gold" src={gold}></img>
@@ -39,7 +36,7 @@ const LandingSection = (props) => {
                 </Fade>
             </div>
             
-            <div id="arrow-container" className="outer-row">
+            <div className="outer-row">
                 <Fade delay={1500}>
                     <img id="arrow" src={arrow}></img>
                 </Fade>                    

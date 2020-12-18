@@ -3,9 +3,9 @@ import {Fade} from 'react-reveal';
 
 import '../styles/About.css';
 import Nav from '../components/Nav';
-import pin from '../images/pin.png';
+import pin from '../images/icons/pin.png';
 import mail from '../images/icons/mail.png';
-import phone from '../images/phone.png';
+import phone from '../images/icons/phone.png';
 
 const About = (props) => {
     

@@ -9,7 +9,6 @@
     padding: 0 7%;
     padding-bottom: 80px;
     box-sizing: border-box;
-    /* background-color: red; */
 }
 
 .workshop-section {
@@ -18,7 +17,6 @@
     align-items: center;
     padding: 0 7%;
     box-sizing: border-box;
-    /* background-color: red; */
 }
 
 .booklet-wrapper {
@@ -29,7 +27,6 @@
     align-items: center;
     transition: 0.2s linear;
     position: relative;
-    /* background-color: aqua; */
 }
 
 .booklet-wrapper:hover {
@@ -70,7 +67,6 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        /* background-color: red; */
     }
     .workshop-section-landing {
         height: max-content;

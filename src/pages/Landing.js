@@ -1,30 +1,23 @@
-import React, { useState, Component, useRef, useEffect } from 'react';   
-import {Fade, Flip} from 'react-reveal';
-import { Route, NavLink, Switch, useLocation } from "react-router-dom";          
+import React, { useState, useRef } from 'react';   
+import {Fade} from 'react-reveal';
 
 import '../styles/Landing.css';
-
-import introManual from '../images/manual.png';
-import silver from '../images/silver.png';
-import gold from '../images/gold.png';
-import video from '../images/nextgenvid.mp4';
-import foundations from '../images/foundations.png';
-import techniques from '../images/techniques.png';
-import connect from '../images/connect2.jpg';
-import logo from '../images/logodark.png';
 
 import Nav from '../components/Nav';
 import LandingSection from '../components/LandingSection';
 import Workshops from '../components/Workshops';
 
-const Landing = React.forwardRef((props, ref) => {
+import introManual from '../images/manual.png';
+import video from '../images/nextgenvid.mp4';
+import connect from '../images/bg/connect2.jpg';
 
-    const [play, setPlay] = useState(false);
-    const workshopRef = useRef(null);
-
+const Landing = (props) => {
+    
     const videoStyle = {
         filter: 'grayscale(100%)'
     }
+
+    const [play, setPlay] = useState(false);
 
     const playPreview = () => {
         setPlay(true);
@@ -123,7 +116,7 @@ const Landing = React.forwardRef((props, ref) => {
         
         </React.Fragment>
     );
-})
+}
 
 
 export default Landing;
