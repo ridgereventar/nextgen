@@ -24,7 +24,6 @@
 .desc-section {
     height: 200px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -152,6 +151,39 @@
 
 /* Connect Section -------------------------------- */
 
+.connect-icon-container {
+    height: 25px; 
+    width: 75px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin-top: 15px;
+}
+
+#connectMail { 
+    height: 23px;
+}
+
+.connect-btn {
+    font-size: 24px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2C2C2C;
+    border: none;
+    outline: none;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.connect-btn:hover {
+    cursor: pointer;
+}
+
+.connect-icon-container img {
+    height: 100%;
+}
 
 .connect-section {
     height: 500px;

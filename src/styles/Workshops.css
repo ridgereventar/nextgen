@@ -3,7 +3,7 @@
 }
 
 .workshop-section-landing {
-    height: max-content;
+    height: 630px;
     justify-content: space-between;
     align-items: center;
     padding: 0 7%;
@@ -58,6 +58,12 @@
 .booklet-wrapper:hover .booklet-desc {
     transition: 0.2s linear;
     bottom: -80px;
+}
+
+@media screen and (max-width: 1500px) {
+    .workshop-section-landing {
+        height: 530px;
+    }
 }
 
 @media screen and (max-width: 1300px) {

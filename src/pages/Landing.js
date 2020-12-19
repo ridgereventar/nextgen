@@ -10,6 +10,8 @@ import Workshops from '../components/Workshops';
 import introManual from '../images/manual.png';
 import video from '../images/nextgenvid.mp4';
 import connect from '../images/bg/connect2.jpg';
+import ig from '../images/icons/igdark.png';
+import mail from '../images/icons/maildark.png';
 
 const Landing = (props) => {
     
@@ -104,12 +106,18 @@ const Landing = (props) => {
 
             <div className="section heading-section">
                 <Fade delay={500}>
-                    <h1>Connect with us</h1>
+                    <a href="mailto:nextgenedu@gmail.com">
+                        <button className="connect-btn">Connect with us</button>
+                    </a>
+                    {/* <div className="connect-icon-container">
+                        <img src={ig}></img>
+                        <img id="connectMail" src={mail}></img>
+                    </div> */}
                 </Fade>
             </div>
 
             <div className="section connect-section">
-                <Fade bottom delay={500}>
+                <Fade bottom>
                     <img id="connectImg" src={connect}></img>
                 </Fade>
             </div>

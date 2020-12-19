@@ -64,12 +64,12 @@ const Foundations = (props) => {
                         <div className="feature-txt-container left-txt">
                             <h1>Toolkit Included</h1>
                             <p>Students will be provided a toolkit consisting of 
-                                <br/><br/> Wahl Magic clip 
-                                <br/> Andis Slimline Pro | Andis Profoil
-                                <br/> Styling comb | Flat top comb
-                                <br/> Scissors | Straight razor 
-                                <br/> Barber cape
-                                <br/> Spray bottle
+                                <br/><br/> - Wahl Magic clip 
+                                <br/> - Andis Slimline Pro | Andis Profoil
+                                <br/> - Styling comb | Flat top comb
+                                <br/> - Scissors | Straight razor 
+                                <br/> - Barber cape
+                                <br/> - Spray bottle
                             </p>
                         </div>
                     </Fade>
