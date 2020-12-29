@@ -5,11 +5,12 @@ import '../styles/Foundations.css';
 
 import Nav from '../components/Nav';
 import LandingSection from '../components/LandingSection';
+import RegisterBtn from '../components/RegisterBtn';
 
 import foundations from '../images/foundations.png';
 import tools from '../images/tools.png';
-import handson from '../images/handson.png';
-import mentor from '../images/wk.jpg';
+import handson from '../images/handson2.png';
+import mentor from '../images/mentor3.jpg';
 
 
 const Foundations = (props) => {
@@ -113,6 +114,12 @@ const Foundations = (props) => {
                         <li>Hands-on practice </li>
                     </ul>
                 </Fade>
+                <div className="registration-container">
+                    <Fade delay={500}>
+                        <RegisterBtn bg="white" color="#2C2C2C"/>
+                    </Fade>
+                </div>
+
 
             </div>
         

@@ -50,6 +50,7 @@
     color: white;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .day-section h1 {
@@ -74,14 +75,30 @@
 }
 
 .day1-sect {
-    background-image: url('../images/bg/dayone.jpg');
+    z-index: 2;
+    background-image: url('../images/bg/day_one.png');
 }
 
 .day2-sect {
-    margin-top: -5px;
-    background-image: url('../images/bg/daytwo.jpg');
+    z-index: 1;
+    margin-top: -2px;
+    background-image: url('../images/bg/day_two.png');
 }
 
+.registration-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    height: 33%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbtn {
+    background-color: white;
+}
 
 @media screen and (max-width: 1300px) {
 
