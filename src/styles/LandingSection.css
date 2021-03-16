@@ -24,17 +24,22 @@
     justify-content: center;
     align-items: center;
     background-color: red;
+    position: relative;
 }
 
 .manual-wrapper {
     height: 100%;
     width: 470px;
     position: relative;
-    background-color: green;
+    /* background-color: green; */
 }
 
 #manual {
-    height: 100%;
+    position: absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    width: 470px;
     -webkit-filter: drop-shadow(-10px 10px 10px #727272);
     filter: drop-shadow(-10px 10px 10px #727272);
 }
@@ -81,7 +86,7 @@
         width: 345px;
     }
     #manual {
-        /* width: 330px; */
+        width: 345px;
     }
     #gold {
         width: 150px;
@@ -101,7 +106,7 @@
         width: 318px;
     }
     #manual {
-        /* width: 310px; */
+        width: 318px;
     }
     #gold {
         width: 140px;
