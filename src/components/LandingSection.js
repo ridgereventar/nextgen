@@ -30,9 +30,9 @@ const LandingSection = (props) => {
             <div className="manual-container">
                 <Fade delay={500}>
                     <img id="manual" src={props.manual} alt=""></img>
-                    <div className="manual-wrapper">
+                    {/* <div className="manual-wrapper">
                         <img id="gold" src={gold} alt=""></img>
-                    </div>
+                    </div> */}
                 </Fade>
             </div>
             

@@ -35,11 +35,7 @@
 }
 
 #manual {
-    position: absolute;
-    margin: auto auto;
-    left: 0;
-    right: 0;
-    width: 470px;
+    height: 100%;
     -webkit-filter: drop-shadow(-10px 10px 10px #727272);
     filter: drop-shadow(-10px 10px 10px #727272);
 }
@@ -85,9 +81,6 @@
     .manual-wrapper {
         width: 345px;
     }
-    #manual {
-        width: 345px;
-    }
     #gold {
         width: 150px;
         left: -65px;
@@ -105,14 +98,24 @@
     .manual-wrapper {
         width: 318px;
     }
-    #manual {
-        width: 318px;
-    }
     #gold {
         width: 140px;
         left: -60px;
     }
     .foundations-header-container {
         display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .manual-wrapper {
+        width: 318px;
+    }
+    #manual {
+        width: 318px;
+    }
+    #gold {
+        width: 140px;
+        left: -60px;
     }
 }
