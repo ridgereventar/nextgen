@@ -21,6 +21,7 @@
 
 .manual-container {
     height: 60%; 
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,10 +98,12 @@
     #mobile-logo {
         display: block;
     }
-    .manual-container {
-        height: 30%;
+    .outer-row {
+        height: 32.5%;
     }
-
+    .manual-container {
+        height: 35%;
+    }
     .foundations-header-container {
         display: block;
     }
