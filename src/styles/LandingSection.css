@@ -97,6 +97,9 @@
     #mobile-logo {
         display: block;
     }
+    .manual-container {
+        height: 30%;
+    }
 
     .foundations-header-container {
         display: block;
