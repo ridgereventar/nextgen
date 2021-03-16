@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #mobile-logo {
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
 }
 
@@ -94,5 +94,12 @@
     }
     .foundations-header-container {
         display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #gold {
+        left: 24vw;
+        width: 110px;
     }
 }
