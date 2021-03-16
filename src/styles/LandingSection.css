@@ -27,12 +27,6 @@
     position: relative;
 }
 
-.manual-wrapper {
-    height: 100%;
-    width: 470px;
-    position: relative;
-    /* background-color: green; */
-}
 
 #manual {
     height: 100%;
@@ -43,7 +37,7 @@
 #gold {
     width: 200px;
     position: absolute;
-    left: -88px;
+    left: 14.5vw;
     bottom: -50px;
     /* left: -8.3vh;
     bottom: -5vh; */
@@ -78,12 +72,10 @@
     .manual-container {
         height: 44%;
     }
-    .manual-wrapper {
-        width: 345px;
-    }
+
     #gold {
+        left: 13.5vw;
         width: 150px;
-        left: -65px;
     }
 }
 
@@ -95,12 +87,10 @@
     #mobile-logo {
         display: block;
     }
-    .manual-wrapper {
-        width: 318px;
-    }
+
     #gold {
-        width: 140px;
-        left: -60px;
+        left: 18vw;
+        width: 135px;
     }
     .foundations-header-container {
         display: block;
