@@ -1,11 +1,6 @@
 import React from 'react';   
-import {Fade} from 'react-reveal';
 
 import '../styles/LandingSection.css';
-
-import gold from '../images/gold.png';
-import logo from '../images/logodark.png';
-import arrow from '../images/icons/arrow.png';
 
 
 const LandingSection = (props) => {
