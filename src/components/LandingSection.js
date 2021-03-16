@@ -14,7 +14,7 @@ const LandingSection = (props) => {
         <div className="section landing-section">
             
             <div className="outer-row">
-                {props.logo?
+                {/* {props.logo?
                     <img id="mobile-logo" src={logo} alt=""></img> 
                     :null
                 }
@@ -24,22 +24,22 @@ const LandingSection = (props) => {
                         <h1>Foundations</h1>
                     </div>  
                     :null  
-                }
+                } */}
             </div>
             
             <div className="manual-container">
-                <Fade delay={500}>
+                {/* <Fade delay={500}>
                     <div className="manual-wrapper">
                         <img id="manual" src={props.manual} alt=""></img>
                         <img id="gold" src={gold} alt=""></img>
                     </div>
-                </Fade>
+                </Fade> */}
             </div>
             
             <div className="outer-row">
-                <Fade delay={1500}>
+                {/* <Fade delay={1500}>
                     <img id="arrow" src={arrow} alt=""></img>
-                </Fade>                    
+                </Fade>                     */}
             </div>
 
         </div> 

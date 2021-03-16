@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 #mobile-logo {
@@ -17,6 +17,7 @@
     width: 25%;
     min-width: 170px;
     display: none;
+    /* background-color: red; */
 }
 
 .manual-container {
@@ -25,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: red;
 }
 
 .manual-wrapper {
