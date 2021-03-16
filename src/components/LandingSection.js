@@ -2,6 +2,8 @@ import React from 'react';
 
 import '../styles/LandingSection.css';
 
+import logo from '../images/logodark.png';
+
 
 const LandingSection = (props) => {
 
@@ -9,7 +11,7 @@ const LandingSection = (props) => {
         <div className="section landing-section">
             
             <div className="outer-row">
-                {/* {props.logo?
+                {props.logo?
                     <img id="mobile-logo" src={logo} alt=""></img> 
                     :null
                 }
@@ -19,7 +21,7 @@ const LandingSection = (props) => {
                         <h1>Foundations</h1>
                     </div>  
                     :null  
-                } */}
+                }
             </div>
             
             <div className="manual-container">
