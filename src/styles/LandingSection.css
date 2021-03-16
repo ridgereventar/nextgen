@@ -106,16 +106,3 @@
         display: block;
     }
 }
-
-@media screen and (max-width: 400px) {
-    .manual-wrapper {
-        width: 318px;
-    }
-    #manual {
-        width: 318px;
-    }
-    #gold {
-        width: 140px;
-        left: -60px;
-    }
-}
