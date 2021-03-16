@@ -22,7 +22,6 @@
 
 .manual-container {
     height: 60%; 
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +29,11 @@
 }
 
 .manual-wrapper {
-    height: 100%;
-    width: max-content;
     position: relative;
 }
 
 #manual {
+    /* width: 470px; */
     height: 100%;
     -webkit-filter: drop-shadow(-10px 10px 10px #727272);
     filter: drop-shadow(-10px 10px 10px #727272);
@@ -77,6 +75,9 @@
     .manual-container {
         height: 44%;
     }
+    #manual {
+        /* width: 330px; */
+    }
     #gold {
         left: -6vh;
         bottom: -4vh;
@@ -84,12 +85,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .outer-row {
-        height: 30%;
-    }
-    .manual-container {
-        height: 40%;
-    }
     #gold {
         left: -5.5vh;
         bottom: -4vh;
@@ -99,6 +94,9 @@
 @media screen and (max-width: 700px) {
     #mobile-logo {
         display: block;
+    }
+    #manual {
+        /* width: 310px; */
     }
     .foundations-header-container {
         display: block;

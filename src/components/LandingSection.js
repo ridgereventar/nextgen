@@ -1,8 +1,10 @@
 import React from 'react';   
+import {Fade} from 'react-reveal';
 
 import '../styles/LandingSection.css';
 
 import logo from '../images/logodark.png';
+import arrow from '../images/icons/arrow.png';
 
 
 const LandingSection = (props) => {
@@ -25,18 +27,20 @@ const LandingSection = (props) => {
             </div>
             
             <div className="manual-container">
-                {/* <Fade delay={500}>
-                    <div className="manual-wrapper">
+                <Fade delay={500}>
+                    <img id="manual" src={props.manual} alt=""></img>
+                    {/* <img id="gold" src={gold} alt=""></img> */}
+                    {/* <div className="manual-wrapper">
                         <img id="manual" src={props.manual} alt=""></img>
                         <img id="gold" src={gold} alt=""></img>
-                    </div>
-                </Fade> */}
+                    </div> */}
+                </Fade>
             </div>
             
             <div className="outer-row">
-                {/* <Fade delay={1500}>
+                <Fade delay={1500}>
                     <img id="arrow" src={arrow} alt=""></img>
-                </Fade>                     */}
+                </Fade>                    
             </div>
 
         </div> 
