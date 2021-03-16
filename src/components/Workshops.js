@@ -35,8 +35,8 @@ const Workshops = (props) => {
                     <Fade left delay={500}>
                         <div className="booklet-wrapper">
                             <NavLink to="/foundations">
-                                <img src={foundations} className="book-img"></img>
-                                <img src={gold} className="scissors"></img>
+                                <img src={foundations} className="book-img" alt=""></img>
+                                <img src={gold} className="scissors" alt=""></img>
                             </NavLink>
                         
                             <p className="booklet-desc">
@@ -47,8 +47,8 @@ const Workshops = (props) => {
 
                     <Fade right delay={500}>
                         <div className="booklet-wrapper">
-                            <img src={techniques} className="book-img"></img>
-                            <img src={silver} className="scissors"></img>
+                            <img src={techniques} className="book-img" alt=""></img>
+                            <img src={silver} className="scissors" alt=""></img>
                             
                             <p className="booklet-desc">
                                 (Coming soon) 

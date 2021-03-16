@@ -30,19 +30,19 @@ const About = (props) => {
                 </Fade>
                 <Fade delay={500}>
                     <div className="contact-container">
-                        <img src={pin}></img>
+                        <img src={pin} alt=""></img>
                         <span>Oshawa, ON.</span>
                     </div>
                 </Fade>
                 <Fade delay={700}>
                     <div className="contact-container">
-                        <img src={mail}></img>
+                        <img src={mail} alt=""></img>
                         <span>nextgenedu@gmail.com</span>
                     </div>
                 </Fade>
                 <Fade delay={900}>
                     <div className="contact-container">
-                        <img id="phone" src={phone}></img>
+                        <img id="phone" src={phone} alt=""></img>
                         <span>905 999 9999</span>
                     </div>
                 </Fade>

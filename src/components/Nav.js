@@ -45,7 +45,7 @@ const Nav = (props) => {
                 </li>
                 <li>
                     <NavLink className="nav-link" to="/">
-                        <img className="nav-logo" src={logo}/>
+                        <img className="nav-logo" src={logo} alt=""/>
                     </NavLink>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ const Nav = (props) => {
             </ul>
             
             <NavLink to="/">
-                <img id="logoLeft" className="nav-logo" src={logo}></img>
+                <img id="logoLeft" className="nav-logo" src={logo} alt=""></img>
             </NavLink>
 
             <div className="burger-wrapper" onClick={toggleSlider}>

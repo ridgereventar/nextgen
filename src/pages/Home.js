@@ -39,8 +39,8 @@ const Home = (props) => {
                     </div>
 
                     <div className="socials-wrapper">
-                        <a href="https://www.instagram.com/next_gen_edu/" target="_blank">
-                            <img src={ig}></img>
+                        <a href="https://www.instagram.com/next_gen_edu/" target="_blank" rel="noreferrer">
+                            <img src={ig} alt=""></img>
                         </a>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import logo from '../images/logodark.png';
 const HomeCover = (props) => {
     return (
         <React.Fragment>
-            <img id="logoDark" src={logo}></img>
+            <img id="logoDark" src={logo} alt=""></img>
         </React.Fragment>
     )
 }

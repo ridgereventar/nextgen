@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';   
+import React, { useState } from 'react';   
 import {Fade} from 'react-reveal';
 
 import '../styles/Landing.css';
@@ -10,8 +10,6 @@ import Workshops from '../components/Workshops';
 import introManual from '../images/manual.png';
 import video from '../images/nextgenvid.mp4';
 import connect from '../images/bg/connect2.jpg';
-import ig from '../images/icons/igdark.png';
-import mail from '../images/icons/maildark.png';
 
 const Landing = (props) => {
     
@@ -61,7 +59,6 @@ const Landing = (props) => {
                             id="video" 
                             src={video} 
                             type="video/mp4" 
-                            controls
                             style={play? null: videoStyle}
                             controls={play? true : false} 
                             onPause={paused}
@@ -118,7 +115,7 @@ const Landing = (props) => {
 
             <div className="section connect-section">
                 <Fade bottom>
-                    <img id="connectImg" src={connect}></img>
+                    <img id="connectImg" src={connect} alt=""></img>
                 </Fade>
             </div>
         

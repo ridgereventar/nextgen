@@ -40,7 +40,7 @@ const Foundations = (props) => {
                 </Fade>
                 <Fade delay={300}>
                     <div className="feature-img-container stack-container">
-                        <img src={mentor}></img>
+                        <img src={mentor} alt=""></img>
                     </div>
                 </Fade>
             </div>
@@ -55,7 +55,7 @@ const Foundations = (props) => {
                 </Fade>
                 <Fade delay={300}>
                     <div className="feature-img-container stack-container">                    
-                        <img src={handson}/>
+                        <img src={handson} alt=""/>
                     </div>
                 </Fade>
             </div>
@@ -76,7 +76,7 @@ const Foundations = (props) => {
                     </Fade>
                     <Fade delay={300}>
                         <div className="feature-img-container">
-                            <img id="tools" src={tools}></img>
+                            <img id="tools" src={tools} alt=""></img>
                         </div>
                     </Fade>
             </div>

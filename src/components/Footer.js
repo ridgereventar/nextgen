@@ -12,7 +12,7 @@ const Footer = (props) => {
         <div className="section footer">
             <div className="content-container">
                 <div className="statement-container">
-                    <img src={logo}/>
+                    <img src={logo} alt=""/>
                     <div className="bar-divider"></div>
                     <div>
                         <p id="missionStatement">
@@ -41,10 +41,10 @@ const Footer = (props) => {
             <div className="socials-container">
                 <div className="icons-container">
                     <a href="mailto:nextgenedu@gmail.com">
-                        <img src={mail}></img>
+                        <img src={mail} alt=""></img>
                     </a>
-                    <a href="https://www.instagram.com/next_gen_edu/" target="_blank">
-                        <img src={ig}></img>
+                    <a href="https://www.instagram.com/next_gen_edu/" target="_blank" rel="noreferrer">
+                        <img src={ig} alt=""></img>
                     </a>
                 </div>
                 <p>2020 Next Gen. All Rights Reserved.</p>

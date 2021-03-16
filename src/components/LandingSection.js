@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';   
+import React from 'react';   
 import {Fade} from 'react-reveal';
 
 import '../styles/LandingSection.css';
@@ -15,7 +15,7 @@ const LandingSection = (props) => {
             
             <div className="outer-row">
                 {props.logo?
-                    <img id="mobile-logo" src={logo}></img> 
+                    <img id="mobile-logo" src={logo} alt=""></img> 
                     :null
                 }
                 {props.foundations?
@@ -30,15 +30,15 @@ const LandingSection = (props) => {
             <div className="manual-container">
                 <Fade delay={500}>
                     <div className="manual-wrapper">
-                        <img id="manual" src={props.manual}></img>
-                        <img id="gold" src={gold}></img>
+                        <img id="manual" src={props.manual} alt=""></img>
+                        <img id="gold" src={gold} alt=""></img>
                     </div>
                 </Fade>
             </div>
             
             <div className="outer-row">
                 <Fade delay={1500}>
-                    <img id="arrow" src={arrow}></img>
+                    <img id="arrow" src={arrow} alt=""></img>
                 </Fade>                    
             </div>
 
