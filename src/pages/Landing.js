@@ -7,26 +7,35 @@ import Nav from '../components/Nav';
 import LandingSection from '../components/LandingSection';
 import Workshops from '../components/Workshops';
 
-import introManual from '../images/landing_manual.png';
+import introManual from '../images/landingManual.png';
 import video from '../images/nextgenvid.mp4';
 import connect from '../images/bg/connect2.jpg';
+import thumbnail from '../images/poster.png';
 
 const Landing = (props) => {
-    
-    const videoStyle = {
-        filter: 'grayscale(100%)'
-    }
+
+    // const videoStyle = {
+    //     filter: 'grayscale(100%)'
+    // }
 
     const [play, setPlay] = useState(false);
 
-    const playPreview = () => {
+    const playBtn = () => {
         setPlay(true);
         var vid = document.getElementById("video");
         vid.play();
     }
 
+    const played = () => {
+        setPlay(true);
+        var vid = document.getElementById("video");
+        vid.style.filter = "grayscale(0%)";
+    }
+
     const paused = () => {
         setPlay(false);
+        var vid = document.getElementById("video");
+        vid.style.filter = "grayscale(100%)";
     }
 
     return (
@@ -50,7 +59,7 @@ const Landing = (props) => {
             <div className="section preview-section">
                 {play? null: 
                     <Fade delay={500}>                    
-                        <div className="preview-btn" onClick={playPreview}/>
+                        <div className="preview-btn" onClick={playBtn}/>
                     </Fade>
                 }
                 <Fade delay={500}>
@@ -59,9 +68,11 @@ const Landing = (props) => {
                             id="video" 
                             src={video} 
                             type="video/mp4" 
-                            style={play? null: videoStyle}
-                            controls={play? true : false} 
+                            preload="auto"
+                            controls
+                            onPlay={played}
                             onPause={paused}
+                            poster={thumbnail}
                             /> 
                     </div>
                 </Fade>
@@ -70,7 +81,7 @@ const Landing = (props) => {
             <div className="section heading-section">
                 <Fade delay={500}>
                     <h1>Our instructors</h1>
-                    <p>are passionate barbers dedicated to sharing their knowledge acquired over 10+ years of experience</p>
+                    <p className="instructors-text">are passionate barbers dedicated to sharing their knowledge acquired over 10+ years of experience</p>
                 </Fade>
             </div>
 

@@ -1,5 +1,9 @@
 /* Footer Section -------------------------------- */
 
+.nav-link-light {
+    text-decoration: none;
+    color: white;
+}
 
 .footer {
     height: 300px; 

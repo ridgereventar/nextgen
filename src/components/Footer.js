@@ -27,13 +27,13 @@ const Footer = (props) => {
                 <div className="link-container">
                     <ul>
                         <li>
-                            <NavLink className="nav-link" to="/about">About</NavLink>
+                            <NavLink className="nav-link-light" to="/about">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link" to="/#workshopSection">Workshops</NavLink>
+                            <NavLink className="nav-link-light" to="/#workshopSection">Workshops</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link" to="/register">Register</NavLink>
+                            <NavLink className="nav-link-light" to="/register">Register</NavLink>
                         </li>
                     </ul>
                 </div>

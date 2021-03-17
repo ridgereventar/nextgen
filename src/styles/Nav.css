@@ -33,6 +33,7 @@ a:focus { text-decoration: none; color:black; }
 .nav-link {
     text-decoration: none;
     margin-left: 0;
+    color: black;
 }
 
 .nav-logo {

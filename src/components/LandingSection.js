@@ -27,7 +27,6 @@ const LandingSection = (props) => {
             </div>
             
             <div className="manual-container">
-                <div className="center-measure"></div>
                 <Fade delay={500}>
                     <img id="manual" src={props.manual} alt=""></img>
                 </Fade>

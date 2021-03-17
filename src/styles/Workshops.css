@@ -6,9 +6,10 @@
     height: 630px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 7%;
+    padding: 0 3.5%;
     padding-bottom: 80px;
     box-sizing: border-box;
+    /* background-color:aqua; */
 }
 
 .workshop-section {
@@ -17,54 +18,43 @@
     align-items: center;
     padding: 0 7%;
     box-sizing: border-box;
+    /* background-color:red; */
 }
 
-.booklet-wrapper {
-    width: 45%;
+.workshop-wrapper {
     height: max-content;
-    display: flex;
+    width: 50%;
+    /* background-color: red; */
+    position: relative;
+    display: flex; 
     flex-direction: column;
     align-items: center;
-    transition: 0.2s linear;
-    position: relative;
 }
 
-.booklet-wrapper:hover {
-    width: 47%;
-}
 
-.book-img {
+.manual {
     width: 100%;
-    -webkit-filter: drop-shadow(-10px 10px 10px #727272);
-    filter: drop-shadow(-10px 10px 10px #727272);
-}
-
-.scissors {
-    width: 40%;
-    position: absolute;
-    left: -4vw;
-    bottom: -1.5vw;
+    z-index: 2;
 }
 
 .booklet-desc {
-    width: 75%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     z-index: -1;
     font-size: 14px;
 }
 
-.booklet-wrapper:hover .booklet-desc {
+.workshop-wrapper:hover .booklet-desc {
     transition: 0.2s linear;
-    bottom: -80px;
+    bottom: -75px;
 }
 
-@media screen and (max-width: 1500px) {
-    .workshop-section-landing {
-        height: 530px;
-    }
+.summary {
+    display: none;
 }
+
 
 @media screen and (max-width: 1300px) {
     .workshop-section {
@@ -81,21 +71,15 @@
         align-items: center;
         padding-bottom: 0px;
     }
-    .booklet-wrapper {
-        width: 50%;
-        min-width: 300px;
+    .workshop-wrapper {
+        width: 80%;
         margin-bottom: 125px;
     }
-    .booklet-wrapper:hover {
-        width: 52%;
-    }
-    .scissors {
-        left: -5.6vw;
-        bottom: -1.5vw;
-    }
+
     .booklet-desc {
-        width: 100%;
+        width: 70%;
     }
+
     .booklet-wrapper:hover .booklet-desc {
         transition: 0.2s linear;
         bottom: -90px;
@@ -109,10 +93,15 @@
     }
     .workshop-section {
         padding-top: 0;
-        
     }
-    .scissors {
-        left: -9.8vw;
-        bottom: -4vw;
+    .booklet-desc {
+        display: none;
+    }
+    .summary {
+        display: block;
+    }
+    .workshop-wrapper {
+        width: 80%;
+        margin-bottom: 100px;
     }
 }

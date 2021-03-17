@@ -7,7 +7,7 @@ import Nav from '../components/Nav';
 import LandingSection from '../components/LandingSection';
 import RegisterBtn from '../components/RegisterBtn';
 
-import foundations from '../images/foundations.png';
+import foundations from '../images/foundationsManual.png';
 import tools from '../images/tools.png';
 import handson from '../images/handson2.png';
 import mentor from '../images/mentor3.jpg';
