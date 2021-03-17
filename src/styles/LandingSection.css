@@ -29,9 +29,19 @@
 
 
 #manual {
+    margin-left: -90px;
     height: 100%;
     -webkit-filter: drop-shadow(-10px 10px 10px #727272);
     filter: drop-shadow(-10px 10px 10px #727272);
+    z-index: 1;
+}
+
+.center-measure {
+    height: 400px; 
+    width: 10px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
 }
 
 #gold {
@@ -72,7 +82,9 @@
     .manual-container {
         height: 44%;
     }
-
+    #manual {
+        margin-left: -70px;
+    }
     #gold {
         left: 13.5vw;
         width: 150px;
@@ -87,7 +99,9 @@
     #mobile-logo {
         display: block;
     }
-
+    #manual {
+        margin-left: -60px;
+    }
     #gold {
         left: 18vw;
         width: 135px;
@@ -98,8 +112,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    #gold {
-        left: 24vw;
-        width: 110px;
+    #manual {
+        margin-left: -60px;
     }
 }
