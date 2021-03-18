@@ -190,10 +190,13 @@
     height: 100%;
 }
 
+.connect-section {
+    /* min-height: 300px; */
+}
 
 #connectImg {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: -2px;
 }
 

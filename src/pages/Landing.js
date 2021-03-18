@@ -124,8 +124,9 @@ const Landing = (props) => {
                 </Fade>
             </div>
 
-            <div className="section">
-                <Fade bottom>
+
+            <div className="section connect-section">
+                <Fade bottom distance="100px">
                     <img id="connectImg" src={connect} alt=""></img>
                 </Fade>
             </div>
