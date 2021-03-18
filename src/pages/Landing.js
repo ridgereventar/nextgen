@@ -68,7 +68,6 @@ const Landing = (props) => {
                             id="video" 
                             src={video} 
                             type="video/mp4" 
-                            preload="auto"
                             controls
                             onPlay={played}
                             onPause={paused}
