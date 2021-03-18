@@ -1,3 +1,13 @@
+.workshop-heading-section {
+    height: 190px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+
 #workshopsHeading {
     display: none;
 }

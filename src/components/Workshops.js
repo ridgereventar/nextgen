@@ -21,7 +21,7 @@ const Workshops = (props) => {
 
             {props.maxContent? 
                 null : 
-                <div id="workshopsHeading" className="section heading-section">
+                <div id="workshopsHeading" className="section workshop-heading-section">
                     <Fade>
                         <h1>Workshops</h1>
                     </Fade>
