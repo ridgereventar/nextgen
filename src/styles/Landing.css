@@ -156,19 +156,8 @@
 
 /* Connect Section -------------------------------- */
 
-.connect-icon-container {
-    height: 25px; 
-    width: 75px; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: aquamarine; */
-    margin-top: 15px;
-}
 
-#connectMail { 
-    height: 23px;
-}
+
 
 .connect-btn {
     font-size: 24px;
@@ -186,17 +175,9 @@
     cursor: pointer;
 }
 
-.connect-icon-container img {
-    height: 100%;
-}
-
-.connect-section {
-    /* min-height: 300px; */
-}
 
 #connectImg {
     width: 100%;
-    object-fit: contain;
     margin-bottom: -2px;
 }
 

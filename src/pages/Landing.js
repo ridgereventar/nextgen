@@ -117,15 +117,11 @@ const Landing = (props) => {
                     <a href="mailto:nextgenedu@gmail.com">
                         <button className="connect-btn">Connect with us</button>
                     </a>
-                    {/* <div className="connect-icon-container">
-                        <img src={ig}></img>
-                        <img id="connectMail" src={mail}></img>
-                    </div> */}
                 </Fade>
             </div>
 
 
-            <div className="section connect-section">
+            <div className="section">
                 <Fade bottom distance="100px">
                     <img id="connectImg" src={connect} alt=""></img>
                 </Fade>
