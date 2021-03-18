@@ -1,3 +1,7 @@
+.mobile-feature {
+    display: none;
+}
+
 .workshop-heading-section {
     height: 190px;
     margin-bottom: 50px;
@@ -113,5 +117,11 @@
     .workshop-wrapper {
         width: 80%;
         margin-bottom: 100px;
+    }
+    .mobile-feature {
+        display: block;
+    }
+    .web-feature {
+        display: none;
     }
 }
