@@ -30,7 +30,7 @@ const Workshops = (props) => {
             
 
             <div id="workshopSection" className={props.maxContent? "section workshop-section-landing" : "section workshop-section"}>
-                    <Fade left>
+                    <Fade left distance="100px">
                         <div className="workshop-wrapper">
                             <NavLink to="/foundations">
                                 <img className="manual" src={foundations} alt=""></img>
@@ -41,7 +41,7 @@ const Workshops = (props) => {
                             <p className="summary">I. FOUNDATIONS</p>
                         </div>
                     </Fade>
-                    <Fade right>
+                    <Fade right distance="100px">
                         <div className="workshop-wrapper">
                             <img className="manual" src={techniques} alt=""></img>
                             <p className="booklet-desc">
