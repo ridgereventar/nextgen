@@ -27,13 +27,13 @@ const LandingSection = (props) => {
             </div>
             
             <div className="manual-container">
-                <Fade delay={500}>
+                <Fade>
                     <img id="manual" src={props.manual} alt=""></img>
                 </Fade>
             </div>
             
             <div className="outer-row">
-                <Fade delay={1500}>
+                <Fade>
                     <img id="arrow" src={arrow} alt=""></img>
                 </Fade>                    
             </div>

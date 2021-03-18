@@ -22,25 +22,25 @@ const About = (props) => {
                 <Fade top>
                     <h1>Next Gen</h1>
                 </Fade>
-                <Fade delay={300}>
+                <Fade>
                     <p id="about-desc">
                         is a school that seeks to lead the new generation of barbers down the right path and guide our students to becoming successful in this industry. 
                         <br/> <br/> Our instructors, Christopher Gonzales and Navarone Paul are passionate barbers who are dedicated to sharing their knowledge acquired over 10+ years of experience. 
                     </p>
                 </Fade>
-                <Fade delay={500}>
+                <Fade>
                     <div className="contact-container">
                         <img src={pin} alt=""></img>
                         <span>Oshawa, ON.</span>
                     </div>
                 </Fade>
-                <Fade delay={700}>
+                <Fade>
                     <div className="contact-container">
                         <img src={mail} alt=""></img>
                         <span>nextgenedu@gmail.com</span>
                     </div>
                 </Fade>
-                <Fade delay={900}>
+                <Fade>
                     <div className="contact-container">
                         <img id="phone" src={phone} alt=""></img>
                         <span>905 999 9999</span>

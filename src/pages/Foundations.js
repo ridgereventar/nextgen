@@ -31,14 +31,14 @@ const Foundations = (props) => {
                 />
 
             <div className="section feature-section">
-                <Fade left delay={300}>
+                <Fade left>
                     <div className="feature-txt-container left-txt">
                         <h1>Workshop + <br/> Mentorship</h1>
                         <p>The course will consist of a two-day workshop followed by a three month mentorship period consisting of private sessions with the mentors.
                         </p>
                     </div>
                 </Fade>
-                <Fade delay={300}>
+                <Fade>
                     <div className="feature-img-container stack-container">
                         <img src={mentor} alt=""></img>
                     </div>
@@ -46,14 +46,14 @@ const Foundations = (props) => {
             </div>
 
             <div className="section feature-section">
-                <Fade right delay={300}>
+                <Fade right>
                     <div className="feature-txt-container right-txt">
                         <h1>Hands-on Practice</h1>
                         <p>Students will have the opportunity to practice the fundamentals during and after the workshop through private sessions with the mentors. 
                         </p>
                     </div>
                 </Fade>
-                <Fade delay={300}>
+                <Fade>
                     <div className="feature-img-container stack-container">                    
                         <img src={handson} alt=""/>
                     </div>
@@ -61,7 +61,7 @@ const Foundations = (props) => {
             </div>
             
             <div className="section feature-section">
-                    <Fade left delay={300}>
+                    <Fade left>
                         <div className="feature-txt-container left-txt">
                             <h1>Toolkit Included</h1>
                             <p>Students will be provided a toolkit consisting of 
@@ -74,7 +74,7 @@ const Foundations = (props) => {
                             </p>
                         </div>
                     </Fade>
-                    <Fade delay={300}>
+                    <Fade>
                         <div className="feature-img-container">
                             <img id="tools" src={tools} alt=""></img>
                         </div>
@@ -86,7 +86,7 @@ const Foundations = (props) => {
                     <h1>Day One</h1>
                     <span>(10:00am - 4:00pm)</span>
                 </Fade>
-                <Fade delay={500}>
+                <Fade>
                     <ul>
                         <li>Introduction</li>
                         <li>Health & Safety</li>
@@ -100,11 +100,11 @@ const Foundations = (props) => {
             </div>
             
             <div className="section day-section day2-sect">
-                <Fade top delay={500}>
+                <Fade top>
                     <h1>Day Two</h1>
                     <span>(10:00am - 4:00pm)</span>
                 </Fade>
-                <Fade delay={500}>
+                <Fade>
                     <ul>
                         <li>Review of day one</li>
                         <li>Demonstration - Skin fade</li>
@@ -115,7 +115,7 @@ const Foundations = (props) => {
                     </ul>
                 </Fade>
                 <div className="registration-container">
-                    <Fade delay={500}>
+                    <Fade>
                         <RegisterBtn bg="white" color="#2C2C2C"/>
                     </Fade>
                 </div>

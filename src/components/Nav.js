@@ -84,12 +84,12 @@ const Nav = (props) => {
                                     <NavLink className="nav-link" to="/about">About</NavLink>
                                 </li>
                             </Fade>
-                            <Fade top delay={100}>
+                            <Fade top>
                                 <li>
                                     <NavLink className="nav-link" to="/workshops">Workshops</NavLink>
                                 </li>
                             </Fade>
-                            <Fade top delay={200}>
+                            <Fade top>
                                 <li>
                                     <RegisterBtn/>
                                 </li>

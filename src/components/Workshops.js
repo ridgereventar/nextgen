@@ -30,7 +30,7 @@ const Workshops = (props) => {
             
 
             <div id="workshopSection" className={props.maxContent? "section workshop-section-landing" : "section workshop-section"}>
-                    <Fade left delay={500}>
+                    <Fade left>
                         <div className="workshop-wrapper">
                             <NavLink to="/foundations">
                                 <img className="manual" src={foundations} alt=""></img>
@@ -41,7 +41,7 @@ const Workshops = (props) => {
                             <p className="summary">I. FOUNDATIONS</p>
                         </div>
                     </Fade>
-                    <Fade right delay={500}>
+                    <Fade right>
                         <div className="workshop-wrapper">
                             <img className="manual" src={techniques} alt=""></img>
                             <p className="booklet-desc">
@@ -50,32 +50,6 @@ const Workshops = (props) => {
                             <p className="summary">(coming soon)</p>
                         </div>
                     </Fade>
-
-
-
-                    {/* <Fade left delay={500}>
-                        <div className="booklet-wrapper">
-                            <NavLink to="/foundations">
-                                <img src={foundations} className="book-img" alt=""></img>
-                                <img src={gold} className="scissors" alt=""></img>
-                            </NavLink>
-                        
-                            <p className="booklet-desc">
-                                This course seeks to teach students the basics of fading, scissor work, and beard work.
-                            </p>
-                        </div>
-                    </Fade>
-
-                    <Fade right delay={500}>
-                        <div className="booklet-wrapper">
-                            <img src={techniques} className="book-img" alt=""></img>
-                            <img src={silver} className="scissors" alt=""></img>
-                            
-                            <p className="booklet-desc">
-                                (Coming soon) 
-                            </p>
-                        </div>
-                    </Fade> */}
             </div>
         </React.Fragment>
     )

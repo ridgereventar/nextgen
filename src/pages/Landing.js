@@ -50,7 +50,7 @@ const Landing = (props) => {
                 />
 
             <div className="section desc-section">
-                <Fade delay={500}>
+                <Fade>
                     <p className="intro-desc">A School seeking to lead the next generation of barbers towards success.
                     </p> 
                 </Fade>
@@ -58,11 +58,11 @@ const Landing = (props) => {
 
             <div className="section preview-section">
                 {play? null: 
-                    <Fade delay={500}>                    
+                    <Fade>                    
                         <div className="preview-btn" onClick={playBtn}/>
                     </Fade>
                 }
-                <Fade delay={500}>
+                <Fade>
                     <div>
                         <video 
                             id="video" 
@@ -79,14 +79,14 @@ const Landing = (props) => {
             </div>
 
             <div className="section heading-section">
-                <Fade delay={500}>
+                <Fade>
                     <h1>Our instructors</h1>
                     <p className="instructors-text">are passionate barbers dedicated to sharing their knowledge acquired over 10+ years of experience</p>
                 </Fade>
             </div>
 
             <div className="section instructor-section">
-                <Fade delay={500}>
+                <Fade>
                     <div id="nav" className="barber-container">
                         <div className="black-gradient"></div>
                         <div className="name-container">
@@ -105,7 +105,7 @@ const Landing = (props) => {
             </div>
 
             <div className="section heading-section">
-                <Fade delay={500}>
+                <Fade>
                     <h1>Workshops</h1>
                 </Fade>
             </div>
@@ -113,7 +113,7 @@ const Landing = (props) => {
             <Workshops maxContent={true}/>
 
             <div className="section heading-section">
-                <Fade delay={500}>
+                <Fade>
                     <a href="mailto:nextgenedu@gmail.com">
                         <button className="connect-btn">Connect with us</button>
                     </a>
