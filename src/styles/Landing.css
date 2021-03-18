@@ -175,10 +175,15 @@
     cursor: pointer;
 }
 
+.img-wrapper {
+    width: 100%;
+    height: max-content; 
+    position: relative;
+    margin-bottom: -10px;
+}
 
 #connectImg {
     width: 100%;
-    margin-bottom: -2px;
 }
 
 
