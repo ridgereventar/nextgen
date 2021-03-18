@@ -9,8 +9,8 @@ import RegisterBtn from '../components/RegisterBtn';
 
 import foundations from '../images/foundationsManual.png';
 import tools from '../images/tools.png';
-import handson from '../images/handson2.png';
-import mentor from '../images/mentor4.jpg';
+import handson from '../images/handson.png';
+import mentor from '../images/mentor.jpg';
 
 
 const Foundations = (props) => {

@@ -131,8 +131,9 @@
     }
 
     #tools {
+        margin-left: -20px;
         margin-right: 0;
-        margin-top: 0;
+        margin-top: 30px;
         width: 100%;
     }
 }
