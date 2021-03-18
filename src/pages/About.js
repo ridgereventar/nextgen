@@ -23,7 +23,7 @@ const About = (props) => {
                     <h1>Next Gen</h1>
                 </Fade>
                 <Fade>
-                    <p id="about-desc">
+                    <p id="about-desc" className="pheight">
                         is a school that seeks to lead the new generation of barbers down the right path and guide our students to becoming successful in this industry. 
                         <br/> <br/> Our instructors, Christopher Gonzales and Navarone Paul are passionate barbers who are dedicated to sharing their knowledge acquired over 10+ years of experience. 
                     </p>

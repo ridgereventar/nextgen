@@ -32,6 +32,10 @@ code {
   cursor: pointer;
 }
 
+.pheight {
+  line-height: 25px;
+}
+
 
 @media screen and (max-height: 800px) {
   .register-btn {

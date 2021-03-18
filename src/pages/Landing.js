@@ -51,7 +51,7 @@ const Landing = (props) => {
 
             <div className="section desc-section">
                 <Fade>
-                    <p className="intro-desc">A School seeking to lead the next generation of barbers towards success.
+                    <p className="intro-desc pheight">A School seeking to lead the next generation of barbers towards success.
                     </p> 
                 </Fade>
             </div>
@@ -81,7 +81,7 @@ const Landing = (props) => {
             <div className="section heading-section">
                 <Fade>
                     <h1>Our instructors</h1>
-                    <p className="instructors-text">are passionate barbers dedicated to sharing their knowledge acquired over 10+ years of experience</p>
+                    <p className="instructors-text pheight">are passionate barbers dedicated to sharing their knowledge acquired over 10+ years of experience</p>
                 </Fade>
             </div>
 

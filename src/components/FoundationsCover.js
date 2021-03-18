@@ -12,7 +12,7 @@ const FoundationsCover = (props) => {
                     <h1>Foundations</h1>
                 </div>                
                 
-                <p className="workshop-desc">
+                <p className="workshop-desc pheight">
                     This course seeks to teach students the basics of fading, scissor work, and beard work. 
                 </p>
             </Fade>

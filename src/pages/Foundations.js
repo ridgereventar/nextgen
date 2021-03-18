@@ -32,16 +32,16 @@ const Foundations = (props) => {
 
             <div className="section feature-section">
                 <Fade left>
-                    <div className="feature-txt-container left-txtm web-feature">
+                    <div className="feature-txt-container left-txt web-feature">
                         <h1>Workshop + <br/> Mentorship</h1>
-                        <p>The course will consist of a two-day workshop followed by a three month mentorship period consisting of private sessions with the mentors.
+                        <p className="pheight">The course will consist of a two-day workshop followed by a three month mentorship period consisting of private sessions with the mentors.
                         </p>
                     </div>
                 </Fade>
                 <Fade>
                     <div className="feature-txt-container left-txt mobile-feature">
                         <h1>Workshop + <br/> Mentorship</h1>
-                        <p>The course will consist of a two-day workshop followed by a three month mentorship period consisting of private sessions with the mentors.
+                        <p className="pheight">The course will consist of a two-day workshop followed by a three month mentorship period consisting of private sessions with the mentors.
                         </p>
                     </div>
                 </Fade>
@@ -56,14 +56,14 @@ const Foundations = (props) => {
                 <Fade right>
                     <div className="feature-txt-container right-txt web-feature">
                         <h1>Hands-on Practice</h1>
-                        <p>Students will have the opportunity to practice the fundamentals during and after the workshop through private sessions with the mentors. 
+                        <p className="pheight">Students will have the opportunity to practice the fundamentals during and after the workshop through private sessions with the mentors. 
                         </p>
                     </div>
                 </Fade>
                 <Fade>
                     <div className="feature-txt-container right-txt mobile-feature">
                         <h1>Hands-on Practice</h1>
-                        <p>Students will have the opportunity to practice the fundamentals during and after the workshop through private sessions with the mentors. 
+                        <p className="pheight">Students will have the opportunity to practice the fundamentals during and after the workshop through private sessions with the mentors. 
                         </p>
                     </div>
                 </Fade>
@@ -78,7 +78,7 @@ const Foundations = (props) => {
                     <Fade left>
                         <div className="feature-txt-container left-txt web-feature">
                             <h1>Toolkit Included</h1>
-                            <p>Students will be provided a toolkit consisting of 
+                            <p className="pheight">Students will be provided a toolkit consisting of 
                                 <br/><br/> - Wahl Magic clip 
                                 <br/> - Andis Slimline Pro | Andis Profoil
                                 <br/> - Styling comb | Flat top comb
@@ -91,7 +91,7 @@ const Foundations = (props) => {
                     <Fade>
                         <div className="feature-txt-container left-txt mobile-feature">
                             <h1>Toolkit Included</h1>
-                            <p>Students will be provided a toolkit consisting of 
+                            <p className="pheight">Students will be provided a toolkit consisting of 
                                 <br/><br/> - Wahl Magic clip 
                                 <br/> - Andis Slimline Pro | Andis Profoil
                                 <br/> - Styling comb | Flat top comb
