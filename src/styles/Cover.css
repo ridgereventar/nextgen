@@ -26,3 +26,33 @@
     width: 70%;
     text-align: start;
 }
+
+@media screen and (max-height: 800px) {
+    #logoDark {
+        width: 45%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .workshop-desc {
+        top: 60vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #logoDark {
+        width: 35%;
+    }
+    .workshop-desc {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    #logoDark {
+        min-width: 100px;
+        width: 25%;
+    }
+}
+
+

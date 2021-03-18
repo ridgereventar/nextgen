@@ -53,3 +53,15 @@
         display: none;
     }
 }
+
+@media screen and (max-height: 800px) {
+    #logoDark {
+        width: 45%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .register-wrapper {
+        bottom: 16vh;
+    }
+}

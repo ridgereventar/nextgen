@@ -31,3 +31,11 @@ code {
 .register-btn:hover {
   cursor: pointer;
 }
+
+
+@media screen and (max-height: 800px) {
+  .register-btn {
+    font-size: 14px;
+    padding: 12px 25px;
+  }
+}
