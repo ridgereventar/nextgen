@@ -43,7 +43,7 @@ const About = (props) => {
                 <Fade>
                     <div className="contact-container">
                         <img id="phone" src={phone} alt=""></img>
-                        <span>905 999 9999</span>
+                        <span>289 923 2873</span>
                     </div>
                 </Fade>
                 

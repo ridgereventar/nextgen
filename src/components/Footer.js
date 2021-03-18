@@ -30,10 +30,13 @@ const Footer = (props) => {
                             <NavLink className="nav-link-light" to="/about">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link-light" to="/#workshopSection">Workshops</NavLink>
+                            <NavLink className="nav-link-light" to="/workshops">Workshops</NavLink>
                         </li>
                         <li>
-                            <NavLink className="nav-link-light" to="/register">Register</NavLink>
+                            <a className="nav-link-light" href="mailto:nextgenedu@gmail.com?subject=REGISTRATION&body=Full Name:%0D%0APhone number:">
+                                Register
+                            </a>
+                            {/* <NavLink className="nav-link-light" to="/register">Register</NavLink> */}
                         </li>
                     </ul>
                 </div>
