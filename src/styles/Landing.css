@@ -156,7 +156,13 @@
 
 /* Connect Section -------------------------------- */
 
-
+.connect-section {
+    height: 150px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
 
 
 .connect-btn {

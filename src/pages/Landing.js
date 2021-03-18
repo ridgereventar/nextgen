@@ -112,7 +112,7 @@ const Landing = (props) => {
 
             <Workshops maxContent={true}/>
 
-            <div className="section heading-section">
+            <div className="section connect-section">
                 <Fade>
                     <a href="mailto:nextgenedu@gmail.com">
                         <button className="connect-btn">Connect with us</button>
