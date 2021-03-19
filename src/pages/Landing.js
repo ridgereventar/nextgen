@@ -7,7 +7,7 @@ import Nav from '../components/Nav';
 import LandingSection from '../components/LandingSection';
 import Workshops from '../components/Workshops';
 
-import introManual from '../images/landingManual.png';
+import introManual from '../images/landingManualV2.png';
 import video from '../images/nextgenvid.mp4';
 import connect from '../images/bg/connect2.jpg';
 import thumbnail from '../images/poster.png';
